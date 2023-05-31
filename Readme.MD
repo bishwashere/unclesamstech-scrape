@@ -1,6 +1,10 @@
 # Amazon Deals Finder & Review-based Q&A Tool
 
-We're creating a website that helps you find amazing deals on Amazon products in real-time! Our platform curates the best deals and also includes a special feature where you can ask questions about the products. What makes it unique is that the answers are generated based on the reviews provided by other customers who have already tried the product. This way, you get valuable insights straight from the experiences of others. Whether you're searching for electronics, home appliances, or any other category, our user-friendly tool ensures you make informed decisions and get the best deals available.
+Deal Finder: Discover amazing deals on a wide range of Amazon products. Our user-friendly interface makes it easy to navigate and find the best tech-focused deals tailored to your preferences.
+
+Q&A Feature: Ask questions about products and gain valuable insights from existing customer reviews. Make informed decisions based on the experiences shared by other customers.
+
+These two features allow users to find great deals and obtain valuable information from customer reviews, enhancing the overall shopping experience.
 
 ## How to Run the App
 
