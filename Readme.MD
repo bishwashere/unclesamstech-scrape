@@ -11,4 +11,5 @@ This project involves the development of a web application that curates deals fr
    ```shell
    pip install -r requirements.txt
 ## usage
-```python first.py
+    ```shell
+    python first.py
