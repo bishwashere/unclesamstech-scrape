@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
+
 import requests
 from bs4 import BeautifulSoup
-from config import db
 from models.deal import Deal
-
+from config import db
 
 def scrape_deals():
     url = "https://www.amazon.com"  # Replace with the URL of the specific Amazon page you want to scrape
@@ -14,13 +13,11 @@ def scrape_deals():
 
     # Locate and extract the deal information using BeautifulSoup
     # For example:
-    deal_elements = soup.find_all("div", class_="deal-element")
+    deal_elements = [1,2,3]
     for deal_element in deal_elements:
-        title = deal_element.find("h3").text.strip()
-        price = deal_element.find("span", class_="price").text.strip()
-        discount = deal_element.find("span", class_="discount").text.strip()
 
-        deal = models.Deal(title=title, price=price, discount=discount)
+
+        deal = Deal(title=1, price=1, discount=1)
         deals.append(deal)
 
     # Store the scraped deals in the database

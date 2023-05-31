@@ -4,9 +4,8 @@ from flask_migrate import Migrate
 from sqlalchemy.exc import OperationalError
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from app_main import app
 
-
-app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root@localhost:3306/deals?unix_socket=C:/xampp/mysql/mysql.sock'
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)

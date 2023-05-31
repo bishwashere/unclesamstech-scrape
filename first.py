@@ -1,10 +1,8 @@
-#!/usr/bin/env python3
+
 from flask import Flask
 from scraping import scrape_deals
-from config import app, db
 
-app = Flask(__name__)
-
+from app_main import app
 # Route for triggering the scraping process
 @app.route("/scrape")
 def run_scraping():
