@@ -8,6 +8,6 @@ This project involves the development of a web application that curates deals fr
 
 2. Install the required dependencies by running the following command:
 
-    ````pip install -r requirements.txt
+`pip install -r requirements.txt`
 ## usage
-    python first.py
+`python first.py`
