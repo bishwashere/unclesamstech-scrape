@@ -6,7 +6,4 @@ class Deal(db.Model):
     title = db.Column(db.String(255), nullable=False)
     price = db.Column(db.String(20), nullable=False)
     discount = db.Column(db.String(20), nullable=False)
-    def __init__(self, title, price,discount):
-        self.title = title
-        self.price = price
-        self.discount = discount
+    
