@@ -1,6 +1,6 @@
-# Real-time Amazon Deals Curator and Question Tool
+# Amazon Deals Finder & Review-based Q&A Tool
 
-This project involves the development of a web application that curates deals from Amazon and incorporates a real-time question tool specifically focused on product reviews. The application will provide a platform where users can explore curated deals and ask questions about the products, with answers generated based solely on the existing reviews associated with the product.
+We're creating a website that helps you find amazing deals on Amazon products in real-time! Our platform curates the best deals and also includes a special feature where you can ask questions about the products. What makes it unique is that the answers are generated based on the reviews provided by other customers who have already tried the product. This way, you get valuable insights straight from the experiences of others. Whether you're searching for electronics, home appliances, or any other category, our user-friendly tool ensures you make informed decisions and get the best deals available.
 
 ## How to Run the App
 
