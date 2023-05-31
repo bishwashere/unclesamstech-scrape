@@ -1,6 +1,6 @@
-# Flask App
+# Real-time Amazon Deals Curator and Question Tool
 
-This is a Flask application written in Python.
+This project involves the development of a web application that curates deals from Amazon and incorporates a real-time question tool specifically focused on product reviews. The application will provide a platform where users can explore curated deals and ask questions about the products, with answers generated based solely on the existing reviews associated with the product.
 
 ## How to Run the App
 
@@ -11,4 +11,4 @@ This is a Flask application written in Python.
    ```shell
    pip install -r requirements.txt
 ## usage
-python first.py
+```python first.py
