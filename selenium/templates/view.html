@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deals</title>
+</head>
+<body>
+    <h1>Deals</h1>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Discount</th>
+        </tr>
+        {% for deal in data %}
+        <tr>
+            <td>{{ deal.title }}</td>
+            <td>{{ deal.price }}</td>
+            <td>{{ deal.discount }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
