@@ -40,7 +40,8 @@ def web_fetch_data(text):
         return meta_price
     except:
         pass
-
+def fetch_link(elements_here):
+    return elements_here.find_element(By.TAG_NAME,'div').get_attribute('data-csa-c-item-id').split('.')[-1]  
 
 def scrape(driver):
     driver.get('https://www.amazon.com/gp/goldbox/')
@@ -51,6 +52,14 @@ def scrape(driver):
             meta=web_fetch_data(elements_here.text)
             assert isinstance(meta,list) , 'data is not list'
             meta.insert(0,extract_clean_string(elements_here.text))
+            try:
+                link=fetch_link(elements_here)
+                link='https://www.amazon.com/dp/'+link
+                our_link=link+'?tag=ust00-20'
+                meta.insert(1,link)
+                meta.insert(2,our_link)
+            except:
+                pass
             g_metadata.append(meta)
         except:
             pass
