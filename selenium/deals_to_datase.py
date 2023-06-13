@@ -6,7 +6,7 @@ deals=driver()
 deals_arr=[]
 def db_sends():
     for i in deals:
-        deal = Deal(title=i[0], price=i[-3], discount=i[-1])
+        deal = Deal(title=i[0], link=i[1],our_link=i[2], price=i[-3],discount=i[-1])
         deals_arr.append(deal)
     with db.session.begin_nested():
         for deal in deals_arr:

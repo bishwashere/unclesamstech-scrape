@@ -8,12 +8,16 @@
     <table>
         <tr>
             <th>Title</th>
+            <th>Link</th>
+            <th>our link</th>
             <th>Price</th>
             <th>Discount</th>
         </tr>
         {% for deal in data %}
         <tr>
             <td>{{ deal.title }}</td>
+            <td><a href="{{ deal.link }}">[view]</a></td>
+            <td><a href="{{ deal.our_link }}">[view]</a></td>
             <td>{{ deal.price }}</td>
             <td>{{ deal.discount }}</td>
         </tr>
