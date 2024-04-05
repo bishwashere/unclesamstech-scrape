@@ -7,7 +7,7 @@ Q&A Feature: Ask questions about products and gain valuable insights from existi
 These two features allow users to find great deals and obtain valuable information from customer reviews, enhancing the overall shopping experience.
 
 ## How to Run the App
-
+###  CHANGE DIRECTORY TO SELENIUM 
 1. Make sure you have Python installed on your system.
 
 2. Install the required dependencies by running the following command:
