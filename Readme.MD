@@ -15,4 +15,4 @@ These two features allow users to find great deals and obtain valuable informati
 `pip install -r requirements.txt`
 ## usage
 `python first.py`
-Make sure to replace `[create if not exists]` with instructions to create the `requirements.txt` file if it doesn't exist.
+Make sure to DOWNLOAD  LATEST SELENIUM DRIVER file if it doesn't exist.
